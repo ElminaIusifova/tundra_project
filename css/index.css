@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand|EB+Garamond");
+
+/************DEFAULTS***************/
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html{
+    font-size:2rem;
+    line-height: 1.5;
+    font-family: Quicksand, Arial, Helvetica,  sans-serif;
+    background-color: #6278A8;
+}
+
+
+/************LAYOUT***************/
+
+.page{
+
+    padding: 1rem;
+    
+    
+    
+}
+.card{
+  
+  border: 1px solid #ddd;
+  background-color: #fff;
+    
+}
+
+.top_right {
+
+    position: absolute;
+    font-size: 2rem;
+    right: 22px;
+}
+.hidden{
+    display: none;
+}
+.message{
+    margin-top: 100px;
+}
+
+h1{
+    color:darkred; 
+    font-size: 4rem;
+    font-family: "EB Garamond", "Times New Roman", Georgia, serif;
+    text-align: center;
+    line-height: normal;
+}
+
+ .card p{
+    color:darkred;
+     font-size: 2rem;
+     text-align: center;
+    
+}
+
+p{
+    color: #1A2E5C;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.bar .tab.icon::before {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.bar .tab.icon::before {
+    font-size: 2.5rem;
+    line-height: 1;
+    color:#1A2E5C;
+}
+
+.bar .tab{
+    font-size:1.5rem;
+    color:#1A2E5C;
+    
+}
+
+#message{
+    color:green;
+    border-color: green;
+}
+
+.message h1{
+    color:red;
+    font-size: 5rem;
+    font-weight:500;
+    border: 1px solid red;
+    font-style:  Quicksand, Arial, Helvetica,  sans-serif;
+}
+.bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 5rem;
+    line-height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    z-index: 300;
+}
+header.bar.top {
+    height: 2;
+}
+
+.favContainer h1 {
+    font-size: 2rem;
+    text-align: left;
+    line-height: 1.5;
+    color: #1A2E5C;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+}
+
+.card.fixed {
+    top: 7rem;
+}
+
+/*
+#message{
+    color:green;
+}*/
